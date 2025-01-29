@@ -1,0 +1,328 @@
+DAY 1:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<header>
+<h1>AIML</h1>
+</header			>
+</html>
+
+case 1;
+ no.of lemons in hand:7
+expected output : god1: 7 offer 
+                  god2: need 7
+                  god3" need 7
+                  shortage:14
+
+
+case 2;
+ no.of lemons in hand:21
+expected output : god1: 7 offer 
+                  god2:7 offer 
+                  god3:7 offer 
+                  sufficient
+
+
+ sam is having 75 candies he gives half of it to his friend angel since
+ angel loves sam a lot, she gives back half of her portions. calculate
+ and display how much candies each one has
+ CONSTRAINTS:
+ 1 variable should be used , in one line calculation and func withoutargument and a return value
+
+
+assignment 1- tailment css
+
+
+ARROW FUNTION - UNDER ES (ECMA SCRIPT)
+tittle arrow function for efficient in term of space we can create function without name and increase the readability  is called as arrow function.
+
+
+desigh a simple cals get in two numer as input display add sub mul quotient reminder by creating individual arrow func.
+
+
+ARRAY
+
+create a array by taking array size and array element from the user extract all the perfact number and even prime number from the array
+
+
+Array inbuild function:
+alert(arr)
+arr.push()
+arr.pop()
+arr.shift()
+arr.unshift
+
+
+
+Object Oriented program structure-OOPS:
+
+class: bird 
+object: egle,bat,pigeon
+properties: colour , leg , eye
+behaviours: flying , singing ,eating.
+
+key :extract all keys
+value: extract all value
+entries:extract all entries
+
+
+JS Promise: javascript object
+two types:
+   resault-success
+   reject-failure
+
+DAY-3
+
+Write a promise called Andhra - bp 
+person A,B,C , a -reached  b -reached  c -reached
+Andhra - A = 5000
+Andhra - B = 2000
+Andhra - C = 1000
+
+expected output 
+C will reach first 
+C B A 
+
+
+title:
+
+
+subtitle:
+
+	we can use promise inbuilt methods according to the requirements
+
+methods :
+promise .all
+promise.any
+promise.allsettled
+promise.race
+
+
+
+
+promise.all:
+
+settled.all:
+
+         all settled everything is false .
+
+	it 
+C:\Users\aswin\OneDrive\Desktop\react
+
+commands:
+	node -v 
+	
+
+
+
+create a folder called react in desktop
+open the command prompt 
+node -v
+npm -v
+creating react by using below command
+npx create-react-app demo
+npm start
+	open your app at port 3000
+
+to make it work 
+go to command prompt 
+1. open ur react folder
+	u will see ur app folder got created
+
+to important folders in react 
+	public folder
+	src folder
+
+
+3 important files
+	index.html
+	index.js
+	index.css
+
+note: don't touch index files
+note:do or write ur code in app.js
+
+
+DOM(document object model)
+    html,css,js  
+react follows v DOM 
+1.once here unlike html once DOM gets created the changes are manipulation what we do gets ompleted and only that part will be re rendered .
+2.whereas in html, every time we make change entire DOM will be re rendered .
+in web application created by react js each ana every thing is called as component .
+TYPES OF COMPONENT
+	 functional component 
+	 class component
+
+
+create a functonal; component called app it should represent ur portfolio.
+
+DAY 4:
+
+
+probes and states
+every component will have probes and states
+
+In early in it industry using class component 
+recently state component was not with functional component
+now oops is used to implement with functional component 
+
+Types:
+	1.use state
+	2.use effect
+	3.use ref
+	4.use context
+	5.use reducer
+best example for use case is counter clock
+
+stating the initial state as the zero ,we can incremented and decremented using use state hook
+
+
+
+DAY5:
+	spread operator exmaple:
+
+const arr1=[2,3,5,4]
+const arr2=[4,6,3,7]
+const combinedArray=[...arr1,...arr2];
+console.log('Array1:',arr1);
+console.log('Array2:',arr2);
+console.log('combinedarray:',combinedArray);
+
+Day 6:
+
+
+upon the condition or action we apply i a functional components monitoring the impact or sideeffects can be done using useeffecthook.
+
+
+
+Day 7:
+       five components 
+		c1 , c2 , c3 , c4 , c5.
+
+
+so c1 child is c2 ,c2 child is c3 , so on until c5.every component should display its name as message as component 1,,,....,5
+Display 
+
+
+
+
+
+whwnevery we are using something inside {} it can be either javascript object or react component.
+
+this is not
+we have exclusive
+
+
+create 4 component ,
+output:
+
+App component
+
+Container component
+
+Users component
+
+User component.
+
+import a usestate
+as import {usestate} from 'react';
+App()
+ const [] = usestate("light");
+return(
+)
+
+with out
+in the given example create content done in an component and that will be used in user component using use context
+
+app.js 
+import{usestate,createContxt} from 'react;
+App(){
+return
+use effect():
+
+is posible using use effect
+
+
+
+Day 8:
+	same as usestate to manage or update states that is data that is values of components 
+difference is if u have more states or complex things you use usereducer hook.   
+
+step 1:
+create increment decrement program using usestate
+
+state 2:
+replace usestate with use reducer 
+note:
+
+1. usereducer takes 2 arguments 
+	1. is reducerfunction  it says what you wants to do.
+	2. initial value state.
+
+2. usereducer returns array with two values like usestate 
+first is initial count and second is dispatch function 
+we can call them "state and dispatch".
+here state will hold initial value and updated once u called dispatch function .
+and dispatch will triggered the usereducer function
+
+
+1.get pass from the user if the pass is crt display the component "login granted" if the pass is incorrect diplay " access dinite".
+
+
+
+
+
+DAY 9:
+
+
+to install redux .
+to create react slice and r.s -react library is used.
+ 
+library is npm i@ reduxjs/toolkit react-redux.
+
+
+example :
+step1:
+ create this using routing home users about contact.
+
+
+
+DAY 11:
+
+mongodb is unstructured data example json and json file look like js object
+
+
+COMPASS:
+
+	compass helps to fetch data from  mongo db server means compass help u to reach mongo db ..like its client 
+
+
+MONGOSH : 
+	The mongsh dhell gives you an interactive environment where you can run queries, manage database,and perform administrative tasks.
+
+
+
+DATA MODELING:
+	nothing but fix structure of ur data paln the structure 
+
+EX: 
+name
+id
+password
+
+Schema:
+
+actual blue print or structure of ur data
+
+ex 
+employee name 
+employee details 
+employee age
+
+
+
+
+
+mongodb://localhost:27017/
+

@@ -1,0 +1,34 @@
+.contact {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .email,
+  .phone,
+  .linkedin {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .linkedin a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  .linkedin a:hover {
+    text-decoration: underline;
+  }
+  
